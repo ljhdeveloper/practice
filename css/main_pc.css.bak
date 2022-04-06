@@ -4,15 +4,15 @@
 	    url('../font/PretendardVariable.woff2') format('truetype');
 }
 body{
+	/*
+	
 	background: -moz-linear-gradient(180deg, #F3B368 0%, rgba(155, 154, 153, 0.35) 66.82%, rgba(255, 255, 255, 0.39) 105.16%);
-	background: -o-linear-gradient(180deg, #F3B368 0%, rgba(155, 154, 153, 0.35) 66.82%, rgba(255, 255, 255, 0.39) 105.16%);
-	background: -webkit-linear-gradient(240deg, #F3B368 0%, rgba(155, 154, 153, 0.35) 66.82%, rgba(255, 255, 255, 0.39) 105.16%);
+	background: -o-linear-gradient(180deg, #F3B368 0%, rgba(155, 154, 153, 0.35) 66.82%, rgba(255, 255, 255, 0.39) 105.16%); */
 	background: linear-gradient(180deg, #F3B368 0%, rgba(155, 154, 153, 0.35) 66.82%, rgba(255, 255, 255, 0.39) 105.16%); 
+	background: -webkit-linear-gradient(240deg, #F3B368 0%, rgba(155, 154, 153, 0.35) 66.82%, rgba(255, 255, 255, 0.39) 105.16%);
+
 	width: 1440px;
 	height: 6489px;
-}
-.logo{ 
-	background-image:url(""
 }
 .logo_text{
 position: absolute;
