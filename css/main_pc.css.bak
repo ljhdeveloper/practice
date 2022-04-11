@@ -51,21 +51,26 @@ header nav ul li a{
 	color: white;
 	line-height:2.4;
 }
+header nav ul li a:hover{ 
+	color:red; 
+}
 main{ 
 	clear:both;
 	padding:114px 88px;
 }
-main img{ 
+main .page1 .img_sample{ 
 	float:left;
 	width: 45rem;
 	height:70rem;
 	padding: 0px 50px 0px 0px;
 }
-main .page_text_1{ 
-	padding:380px 0px 0px 605px;
+main .page_text{ 
 	font-weight: 600;
-	font-size: 4.2rem;
+	font-size: 4.5rem;
 	white-space:nowrap;
+}
+main .page1 .page_text{ 
+	padding:380px 0px 0px 605px;
 }
 .page1 ul li{ 
 	position:relative;
@@ -80,18 +85,42 @@ main .page_text_1{
 	 background-color:black;
 	 border-radius:0.5rem;
 }
+
 .page1 ul li a{ 
 	display:block;
 	text-decoration:none; 
 	color:white;
 	font-size:2.3rem;
 }
+.page1 ul li a:hover{ 
+	color:red;
+}
 .page1 .arrow_icon{ 
-	width:100%;
-	text-align:center;
 	clear:both;
 }
 .page1 .arrow_icon img{ 
-	width:10rem;
-	height:10rem;
+	width:5rem;
+	height:4rem;
+	margin:10rem 50rem 0px 50rem;
+	padding:0px;
+}
+.page1 .arrow_icon img:hover{ 
+cursor:pointer;
+}
+.page2{ 
+	clear:both; 
+	padding:10rem 0rem;
+}
+main .page2 .page_text{ 
+	padding:27rem 0rem 0rem 4rem;
+}
+main .page2 .img_sample{ 
+	width: 37%;
+	height:70rem;
+	margin: 0px 0px 0px 15%;
+}
+main .page2 .ul{ 
+}
+.arrow_icon1{ 
+	clear:both; 
 }
