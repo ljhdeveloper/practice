@@ -1,0 +1,35 @@
+@font-face{
+	font-family: 'Pretendard';
+	src:url('../font/PretendardVariable.woff2') format('woff2'),
+	    url('../font/PretendardVariable.woff2') format('truetype');
+}
+body{
+	background-image: url("../image/top_bg.png");
+	background-repeat: no-repeat;
+	background-size:100vw 100vh;
+}
+header{
+	height: 100px;
+	margin: 8px 16px 0px;
+	line-height: 40px;
+}
+header #logo{
+	float: left;
+}
+header #logo h1{
+	font-size: 0px;
+	background-image: url("../image/logo.png");
+	background-size: 146px 68px;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+	width: 180px;
+	height: 80px;
+}
+
+.contain{ 
+	margin:0px auto;
+	border:1px solid black;
+	width:80vw;
+	height:70vh;
+}
