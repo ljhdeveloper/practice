@@ -115,12 +115,28 @@ main .page2 .page_text{
 	padding:27rem 0rem 0rem 4rem;
 }
 main .page2 .img_sample{ 
-	width: 37%;
+	width: 80%;
 	height:70rem;
-	margin: 0px 0px 0px 15%;
+	margin: 0px 0px 0px 7%;
 }
-main .page2 .ul{ 
+main .page2 ul li{ 
+	display:inline;
+	list-style:none; 
+	margin:0px 4rem 0px 0px;
 }
-.arrow_icon1{ 
-	clear:both; 
+main .page2 ul li a{ 
+	font-weight: bold;
+	font-size:1.5rem;
+	color:black;
+	text-decoration:none; 
+}
+.page2{ 
+	column-count:2;
+	column-gap:32px;
+	column-width:250px;
+}
+.sub_text{ 
+	 font-weight: 600;
+	font-size: 2.2rem;
+	padding:2rem 0rem 0rem 4rem;
 }

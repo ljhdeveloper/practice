@@ -43,7 +43,17 @@
 				<div class="page_text">
 						장례식장이 추천하는<br/>애도만의 특별한 서비스
 				</div>
+				<ul>
+					<li><a href="">모바일 부고</a></li>
+					<li><a href="">근조화한 배송</a></li>
+					<li><a href="">장례식장 예약</a></li>
+					<li><a href="">조문관리</a></li>
+				</ul>
+				<div class="page_text">
+						보낸 조문과 받은 조문을 간편하게 관리하는 서비스
+				</div>
 				<img class="img_sample" src="image/img_sample.png"/>
+
 			</div>
 		</main>
 
